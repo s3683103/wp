@@ -25,11 +25,11 @@
 		if (($headings = fgetcsv($fp, 0, "\t")) !== false) { 
 		while ( $cells = fgetcsv($fp, 0, "\t") ) { 
  		for ($x=1; $x<count($cells); $x++) 
-	 	$Products1[$cells[0]][$headings[$x]]=$cells[$x]; 
+	 	$products[$cells[0]][$headings[$x]]=$cells[$x]; 
     		 } 
    		} 
   	fclose($fp); 
- 	preShow($Products1); 
+ 	preShow($products); 
           $data = explode(',',$Products1.txt);
     	echo '<table>';
     	foreach($data as $row){
