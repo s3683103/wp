@@ -21,7 +21,7 @@
     <div class="menu">
     <h3>Khon's Menu</h3>
      <?php include 'products.txt.tsv';
-          $data = explode("",$products.txt.tsv);
+          $data = explode(',',$products.txt.tsv);
     echo '<table>';
     foreach($data as $row){
         echo '<tr>';
