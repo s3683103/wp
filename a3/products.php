@@ -22,31 +22,17 @@
     <h3>Khon's Menu</h3>
      <?php    
 	   
-	   	$fp = fopen("Products1.txt) 
-	    	if (($fp = fopen('Products1.txt', 'r')) === false)
-    			return false;
-	    
-	    	if ( ($headingsArray = fgetcsv($fp)) === false )
-    			return false;
-	    	
-	    	while ( ($lineArray = fgetcsv($fp)) !== false) 
-  		{
-    		foreach ($lineArray as $i => $cell) 
-    			{
-     			 $menuArray[ $lineArray[0] ][ $headingsArray[$i] ] = $lineArray[$i];
-    			}
-  		}
-	    	fclose($fp);
-  		return $menuArray;
-	   // $fp = fopen('Products1.txt','r'); 
-	//	if (($headings = fgetcsv($fp)) !== false) { 
-	//	while ( $cells = fgetcsv($fp) ) { 
- 	//	for ($x=1; $x<count($cells); $x++) 
-	 //	$products[$cells[0]][$headings[$x]]=$cells[$x]; 
-    	//	 } 
-   	//	} 
-  //	fclose($fp); 
- 	
+	  
+  		
+	 $fp = fopen('Products1.txt','r'); 
+	if (($headings = fgetcsv($fp)) !== false) { 
+	while ( $cells = fgetcsv($fp) ) { 
+	for ($x=1; $x<count($cells); $x++) 
+	$products[$cells[0]][$headings[$x]]=$cells[$x]; 
+   	 } 
+   		} 
+  	fclose($fp); 
+ 	return $productsy;
 	    for ($row = 0; $row < 4; $row++) {
   		echo "<p><b>Row number $row</b></p>";
   		echo "<ul>";
