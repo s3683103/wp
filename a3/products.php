@@ -21,11 +21,9 @@
     <div class="menu">
     <h3>Khon's Menu</h3>
      <?php    
-	   function menu($filenameP='Products1.txt')
-	   {
-	
-	    
-	    	if (($fp = fopen($filenameP, 'r')) === false)
+	   
+	   	$fp = fopen("Products1.txt) 
+	    	if (($fp = fopen("Products1.txt", 'r')) === false)
     			return false;
 	    
 	    	if ( ($headingsArray = fgetcsv($fp, 0, "\t")) === false )
