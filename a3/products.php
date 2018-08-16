@@ -23,15 +23,24 @@
      <?php    
 	   
 	  
-  	$products=[''];	
-	 $fp = fopen('Products1.txt','r'); 
-	if (($headings = fgetcsv($fp)) !== false) { 
-	while ( $cells = fgetcsv($fp) ) { 
-	for ($x=1; $x<count($cells); $x++) 
-	$products[$cells[0]][$headings[$x]]=$cells[$x]; 
-   	 } 
-   		} 
-  	
+  	//$products=[''];	
+	// $fp = fopen('Products1.txt','r'); 
+	//if (($headings = fgetcsv($fp)) !== false) { 
+	//while ( $cells = fgetcsv($fp) ) { 
+	//for ($x=1; $x<count($cells); $x++) 
+	//$products[$cells[0]][$headings[$x]]=$cells[$x]; 
+   	 //} 
+   	//	} 
+  	$fp = fopen('Products1.txt', "r");
+	flock($fp, LOCK_SH);
+	$headings = fgetcsv($fp);
+	while ($aLineOfCells = fgetcsv($fp)) {
+  	$records[] = $aLineOfCells;
+	}
+	flock($fp, LOCK_UN);
+	fclose($fp);
+	echo "<p>{$headings[3];}</p>";
+	echo "<p>{$records[0][0]}</p>";
  	
 	    for ($cells = 0; $row < 4; $row++) {
   		echo "<p><b>Row number $row</b></p>";
