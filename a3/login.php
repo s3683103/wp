@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-		<a class="logo" href="/"><img src="KhonsLogo.png"></a>
+		<a class="logo" href="index.php"><img src="KhonsLogo.png"></a>
 		<ul class="menu" id="menu">
 			<li class="navtext"><a class="page" href="login.php">Login</a></li>
             <li class="navtext"><a href="service.php">Order</a></li>
