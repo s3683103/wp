@@ -21,14 +21,35 @@
     <div class="menu">
     <h3>Khon's Menu</h3>
      <?php    
-	   $fp = fopen('Products1.txt','r'); 
-		if (($headings = fgetcsv($fp)) !== false) { 
-		while ( $cells = fgetcsv($fp) ) { 
- 		for ($x=1; $x<count($cells); $x++) 
-	 	$products[$cells[0]][$headings[$x]]=$cells[$x]; 
-    		 } 
-   		} 
-  	fclose($fp); 
+	   function menu($filenameP='Products1.txt')
+		$fp;
+	    	$menuArray=[];
+	    	$headingsArray[];
+	    	$lineArray;
+	    
+	    	if (($fp = fopen($filenameP, 'r')) === false)
+    			return false;
+	    
+	    	if ( ($headingsArray = fgetcsv($fp, 0, "\t")) === false )
+    			return false;
+	    	
+	    	while ( ($lineArray = fgetcsv($fp, 0, "\t")) !== false) 
+  		{
+    		foreach ($lineArray as $i => $cell) 
+    			{
+     			 $menuArray[ $lineArray[0] ][ $headingsArray[$i] ] = $lineArray[$i];
+    			}
+  		}
+	    	fclose($fp);
+  		return $pumpsArray;
+	   // $fp = fopen('Products1.txt','r'); 
+	//	if (($headings = fgetcsv($fp)) !== false) { 
+	//	while ( $cells = fgetcsv($fp) ) { 
+ 	//	for ($x=1; $x<count($cells); $x++) 
+	 //	$products[$cells[0]][$headings[$x]]=$cells[$x]; 
+    	//	 } 
+   	//	} 
+  //	fclose($fp); 
  	
 	    for ($row = 0; $row < 4; $row++) {
   		echo "<p><b>Row number $row</b></p>";
