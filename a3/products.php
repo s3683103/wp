@@ -39,9 +39,9 @@
 	}
 	flock($fp, LOCK_UN);
 	$menuLength = count($records);
-	echo "<p>{$headings[2]} {$headings[3]} {$headings[4]} {$headings[5]} {$headings[6]}</p>";
+	echo "<p>{$headings[2]} {$headings[3]} {$headings[4]} {$headings[5]}</p>";
 	for ($x = 0; $x < $records;  $x++) {
-	    echo "<p>{$records[$x]}</p>";
+	    echo print_r($records[$x]);
 		if ($records = 6 OR $records = 12 OR $records = 18 OR $records = 24){
 			echo "<br>";
 		}
