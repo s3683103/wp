@@ -38,7 +38,7 @@
     <!--<nav>
       <div>Put website navigation links here</div>
     </nav>-->
-<div id="jumbotron" class="clearfix">
+<div id="jumbotron" style="background-image('cooking.jpg')" class="clearfix">
 	<div id="jumbocontent"><h1 class="toptext">Khon's Asian Takeaway</h1>
 		<p>Dine in or take out made to order</p>
         <h5><a href="products.php"><button id="menubutton">See Menu</button></a>
