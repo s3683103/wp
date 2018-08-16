@@ -21,16 +21,15 @@
     <div class="menu">
     <h3>Khon's Menu</h3>
      <?php    
-	   $fp = fopen($Products1, "r");
-	flock($fp, LOCK_SH);
-	$headings = fgetcsv($fp, 0, "\t");
-	while ($aLineOfCells = fgetcsv($fp, 0, "\t")) {
-  	$records[] = $aLineOfCells;
-	}
-	flock($fp, LOCK_UN);
-	fclose($fp);
-	//echo "<p>{$headings[5]}</p>";
-	//echo "<p>{$records[0][0]}</p>";
+	   $fp = fopen('Products1.txt','r'); 
+		if (($headings = fgetcsv($fp, 0, "\t")) !== false) { 
+		while ( $cells = fgetcsv($fp, 0, "\t") ) { 
+ 		for ($x=1; $x<count($cells); $x++) 
+	 	$Products1[$cells[0]][$headings[$x]]=$cells[$x]; 
+    		 } 
+   		} 
+  	fclose($fp); 
+ 	preShow($Products1); 
           $data = explode(',',$Products1.txt);
     	echo '<table>';
     	foreach($data as $row){
