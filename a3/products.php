@@ -20,7 +20,7 @@
 	</header>
     <div class="menu">
     <h3>Khon's Menu</h3>
-     <?php    $fp = fopen($products.txt.tsv, "r");
+     <?php    $fp = fopen($Products1.txt, "r");
 flock($fp, LOCK_SH);
 $headings = fgetcsv($fp);
 while ($aLineOfCells = fgetcsv($fp)) {
@@ -30,7 +30,7 @@ flock($fp, LOCK_UN);
 fclose($fp);
 echo "<p>{$headings[5]}</p>";
 echo "<p>{$records[0][0]}</p>";
-          $data = explode(',',$products.txt.tsv);
+          $data = explode(',',$Products1.txt);
     echo '<table>';
     foreach($data as $row){
         echo '<tr>';
