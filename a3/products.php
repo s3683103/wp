@@ -24,8 +24,8 @@
 	   function menu($filenameP='Products1.txt')
 	   {
 		$fp;
-	    	$menuArray=[];
-	    	$headingsArray[];
+	    	$menuArray=[i];
+	    	$headingsArray[i];
 	    	$lineArray;
 	    
 	    	if (($fp = fopen($filenameP, 'r')) === false)
