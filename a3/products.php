@@ -23,7 +23,7 @@
      <?php    
 	   
 	   	$fp = fopen("Products1.txt) 
-	    	if (($fp = fopen("Products1.txt", 'r')) === false)
+	    	if (($fp = fopen('Products1.txt', 'r')) === false)
     			return false;
 	    
 	    	if ( ($headingsArray = fgetcsv($fp, 0, "\t")) === false )
