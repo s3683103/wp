@@ -20,19 +20,20 @@
 	</header>
     <div class="menu">
     <h3>Khon's Menu</h3>
-     <?php    $fp = fopen($Products1.txt, "r");
-flock($fp, LOCK_SH);
-$headings = fgetcsv($fp);
-while ($aLineOfCells = fgetcsv($fp)) {
-  $records[] = $aLineOfCells;
-}
-flock($fp, LOCK_UN);
-fclose($fp);
-echo "<p>{$headings[5]}</p>";
-echo "<p>{$records[0][0]}</p>";
+     <?php    
+	   $fp = fopen($Products1.txt, "r");
+	flock($fp, LOCK_SH);
+	$headings = fgetcsv($fp, 0, "\t");
+	while ($aLineOfCells = fgetcsv($fp, 0, "\t")) {
+  	$records[] = $aLineOfCells;
+	}
+	flock($fp, LOCK_UN);
+	fclose($fp);
+	//echo "<p>{$headings[5]}</p>";
+	//echo "<p>{$records[0][0]}</p>";
           $data = explode(',',$Products1.txt);
-    echo '<table>';
-    foreach($data as $row){
+    	echo '<table>';
+    	foreach($data as $row){
         echo '<tr>';
         $row = explode("",$row);
         foreach($row as $cell){
