@@ -42,11 +42,11 @@
 	echo "<p>{$headings[2]} {$headings[3]} {$headings[4]} {$headings[5]}</p>";
 	for ($x = 0; $x < $records;  $x++) {
 	    print implode(",", $records[$x]);
-		if ($records = 6 OR $records = 12 OR $records = 18 OR $records = 24){
-			echo "<br>";
-		}
-		else{
-		}
+		//if ($records = 6 OR $records = 12 OR $records = 18 OR $records = 24){
+		//	echo "<br>";
+		//}
+		//else{
+		//}
 	}
 		
  	
