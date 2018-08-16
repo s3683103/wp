@@ -21,7 +21,7 @@
     <div class="menu">
     <h3>Khon's Menu</h3>
      <?php    
-	   $fp = fopen($a3/Products1.txt, "r");
+	   $fp = fopen($Products1, "r");
 	flock($fp, LOCK_SH);
 	$headings = fgetcsv($fp, 0, "\t");
 	while ($aLineOfCells = fgetcsv($fp, 0, "\t")) {
