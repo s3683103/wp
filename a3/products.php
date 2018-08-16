@@ -23,10 +23,7 @@
      <?php    
 	   function menu($filenameP='Products1.txt')
 	   {
-		$fp;
-	    	$menuArray=[];
-	    	$headingsArray[];
-	    	$lineArray;
+	
 	    
 	    	if (($fp = fopen($filenameP, 'r')) === false)
     			return false;
