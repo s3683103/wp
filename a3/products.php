@@ -31,7 +31,7 @@
 	$products[$cells[0]][$headings[$x]]=$cells[$x]; 
    	 } 
    		} 
-  	fclose($fp); 
+  	
  	
 	    for ($cells = 0; $row < 4; $row++) {
   		echo "<p><b>Row number $row</b></p>";
@@ -41,6 +41,7 @@
   		}
   		echo "</ul>";
 		}
+	    fclose($fp); 
         ?>
     
     <h3 id="size">Large</h3><h3 id="size">Small</h3>
