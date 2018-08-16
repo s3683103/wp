@@ -29,9 +29,9 @@
 		<a class="logo" href="/"><img src="KhonsLogo.png"></a>
 		<ul class="menu" id="menu">
 			<li class="navtext"><a href="login.php">Login</a></li>
-            <li class="navtext"><a href="service.php">Order</a></li>
-			<li class="navtext"><a class="page" href="products.php">Menu</a></li>
-			<li class="navtext"><a href="index.php">Home</a></li>
+            		<li class="navtext"><a href="service.php">Order</a></li>
+			<li class="navtext"><a href="products.php">Menu</a></li>
+			<li class="navtext"><a class="page" href="index.php">Home</a></li>
 		</ul>
 	</header>
 
