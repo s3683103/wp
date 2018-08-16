@@ -29,7 +29,7 @@
     		 } 
    		} 
   	fclose($fp); 
- 	Show($products); 
+ 	return($products); 
         ?>
     
     <h3 id="size">Large</h3><h3 id="size">Small</h3>
