@@ -42,7 +42,7 @@ while ($aLineOfCells = fgetcsv($fp)) {
 }
 flock($fp, LOCK_UN);
 fclose($fp);
-echo "<p>{$headings[5];}</p>";
+echo "<p>{$headings[5]}</p>";
 echo "<p>{$records[0][0]}</p>";
 ?>
 </body>
