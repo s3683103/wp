@@ -29,7 +29,15 @@
     		 } 
    		} 
   	fclose($fp); 
- 	return($products); 
+ 	
+	    for ($row = 0; $row < 4; $row++) {
+  		echo "<p><b>Row number $row</b></p>";
+  		echo "<ul>";
+  		for ($col = 0; $col < 3; $col++) {
+    		echo "<li>".$headings[$row][$col]."</li>";
+  		}
+  		echo "</ul>";
+		}
         ?>
     
     <h3 id="size">Large</h3><h3 id="size">Small</h3>
