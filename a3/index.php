@@ -38,7 +38,92 @@
     <!--<nav>
       <div>Put website navigation links here</div>
     </nav>-->
+<div id="jumbotron" data-stellar-background-ratio="0.5" class="clearfix">
+	<div id="jumbocontent"><h1 class="toptext">Khon's Asian Takeaway</h1>
+		<p>Dine in or take out made to order</p>
+        <h5><a href="products.php"><button id="menubutton">See Menu</button></a>
+            <a href="service.php"><button id="orderbutton">Order Now</button></a></h5>
+	</div>
+</div>
 
+<div class="wrap">
+	<div class="bg">
+	<div class="content">
+		<h3>Khon's Kitchen</h3>
+		<p>Khon's Asian Takeaway is a family business in the central shop area of Mowbray. With many years of experience expect a loving atmosphere with great food. 
+            <br><br>Food is made to order or you can choose from the ready cooked selection on offer.</p>
+		<h3>Menu</h3>
+		<p> </p>
+	
+	</div>
+	
+	<div class="hours">
+	
+		<table>
+			
+			<tr class="openhourstop">
+				<th>
+					<h3 id="openhours">Open Hours</h3>
+				</th>					
+				<th>
+					<h3>Lunch</h3>
+				</th>										
+				<th>
+					<h3>Dinner</h3>
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<h4>Monday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>Closed</td>
+			</tr>
+			<tr>
+				<td>	
+					<h4>Tuesday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>11am - 1pm</td>
+			</tr>
+			<tr>
+				<td>	
+					<h4>Wednesday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>5pm - 9pm</td>
+			</tr>	
+				<td>	
+					<h4>Thursday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>5pm - 9pm</td>
+			<tr>
+				<td>
+					<h4>Friday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>5pm - 9pm</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Saturday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>5pm - 9pm</td>
+			<tr>
+				<td>
+					<h4>Sunday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>5pm - 9pm</td>
+			</tr>	
+		
+	</table>
+	
+</div>
+	</div>
+</div>
     
 <footer class="footer">
 	<br>
