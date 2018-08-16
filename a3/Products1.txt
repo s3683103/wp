@@ -1,24 +1,24 @@
-ID-OID-Title-Description-Option-Price
-T001-LRG-Rice-Large Rice-large-8
-T001-SML-Rice-Small Rice-small-6
-T002-LRG-Noodles-Large Noodles-large-8
-T002-SML-Noodles-Small Noodles-small-6
-T003-SML-Soup-Small Soup-small-4
-T003-LRG-Soup-Large Soup-large-6
-T004-LRG-Dim Sims-6 Dim Sims-six-9
-T004-SML-Dim Sims-1 Dim Sim-one-1.8
-T005-GRL-Squid-Serve of Garlic Squid-Garlic-16
-T005-FRI-Squid-Serve of Deep Fried Squid-Fried-16
-T006-GRL-King Prawns-Serve of Garlic King Prawns-Garlic-18
-T006-CSH-King Prawns-Serve of King Prawns with Cashews-Cashews-18
-T007-BLP-Beef-Serve of Beef with Black Pepper Sauce-Black Pepper-13
-T007-CSH-Beef-Serve of Beef with Cashews-Cashews13
-T007-SAT-Beef-Serve of Beef with Satay Sauce-Satay-13
-T008-BLP-Chicken-Serve of Chicken with Black Pepper Sauce-Black Pepper-13
-T008-SAT-Chicken-Serve of Chicken with Satay Sauce-Satay-13
-T008-CSH-Chicken-Serve of Chicken with Cashews-Cashews-13
-T009-CHK-Lemon Sauce-Serve of Deep Fried Lemon Chicken-Chicken-13
-T009-PRA-Lemon Sauce-Serve of Deep Fried Lemon Prawns-Prawns-18
-T010-PRK-Sweet and Sour-Serve of Sweet and Sour Pork-Pork-13
-T010-CHK-Sweet and Sour-Serve of Sweet and Sour Chicken-Chicken-13
-T010-BEF-Sweet and Sour-Serve of Sweet and Sour Beef-Beef-13
+ID,OID,Title,Description,Option,Price
+T001,LRG,Rice,Large Rice,large,8
+T001,SML,Rice,Small Rice,small,6
+T002,LRG,Noodles,Large Noodles,large,8
+T002,SML,Noodles,Small Noodles,small,6
+T003,SML,Soup,Small Soup,small,4
+T003,LRG,Soup,Large Soup,large,6
+T004,LRG,Dim Sims,6 Dim Sims,six,9
+T004,SML,Dim Sims,1 Dim Sim,one,1.8
+T005,GRL,Squid,Serve of Garlic Squid,Garlic,16
+T005,FRI,Squid,Serve of Deep Fried Squid,Fried,16
+T006,GRL,King Prawns,Serve of Garlic King Prawns,Garlic,18
+T006,CSH,King Prawns,Serve of King Prawns with Cashews,Cashews,18
+T007,BLP,Beef,Serve of Beef with Black Pepper Sauce,Black Pepper,13
+T007,CSH,Beef,Serve of Beef with Cashews,Cashews,13
+T007,SAT,Beef,Serve of Beef with Satay Sauce,Satay,13
+T008,BLP,Chicken,Serve of Chicken with Black Pepper Sauce,Black Pepper,13
+T008,SAT,Chicken,Serve of Chicken with Satay Sauce,Satay,13
+T008,CSH,Chicken,Serve of Chicken with Cashews,Cashews,13
+T009,CHK,Lemon Sauce,Serve of Deep Fried Lemon Chicken,Chicken,13
+T009,PRA,Lemon Sauce,Serve of Deep Fried Lemon Prawns,Prawns,18
+T010,PRK,Sweet and Sour,Serve of Sweet and Sour Pork,Pork,13
+T010,CHK,Sweet and Sour,Serve of Sweet and Sour Chicken,Chicken,13
+T010,BEF,Sweet and Sour,Serve of Sweet and Sour Beef,Beef,13
