@@ -46,12 +46,12 @@ echo "<p>{$headings[5]}</p>";
 echo "<p>{$records[0][0]}</p>";
 ?>
 	<?php
-	$data = explode(',',$query);
+	$data = explode('products.txt.tsv',$query);
 
     echo '<table>';
     foreach($data as $row){
         echo '<tr>';
-        $row = explode(' ',$row);
+        $row = explode('products.txt.tsv',$row);
         foreach($row as $cell){
             echo '<td>';
             echo $cell;
