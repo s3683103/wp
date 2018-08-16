@@ -33,7 +33,7 @@
    	//	} 
   	$fp = fopen('Products1.txt', "r");
 	flock($fp, LOCK_SH);
-	$headings = fgetcsv($fp);
+	$headings = fgetcsv($fp, "\-");
 	while ($aLineOfCells = fgetcsv($fp)) {
   	$records[] = $aLineOfCells;
 	}
