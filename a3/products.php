@@ -44,10 +44,10 @@
  	$headings=[i];
 	    for ($cells = 0; $row < 4; $row++) {
   		$headings[i]+1;
-		echo "<p><b>$headings[]</b></p>";
+		echo "<p><b>$headings[i]</b></p>";
   		echo "<ul>";
   		for ($cells = 0; $col < 3; $col++) {
-    		echo "<li>".$headings[$row][$col]."</li>";
+    		echo "<li>".$headings[i][$row][$col]."</li>";
   		}
   		echo "</ul>";
 		}
