@@ -24,9 +24,15 @@
 
   <body>
 
-    <header>
-      <div>Put company logo and name here</div>
-    </header>
+ <header class="header">
+		<a class="logo" href="/"><img src="KhonsLogo.png"></a>
+		<ul class="menu" id="menu">
+			<li class="navtext"><a href="login.php">Login</a></li>
+            <li class="navtext"><a href="service.php">Order</a></li>
+			<li class="navtext"><a class="page" href="products.php">Menu</a></li>
+			<li class="navtext"><a href="index.php">Home</a></li>
+		</ul>
+	</header>
 
     <nav>
       <div>Put website navigation links here</div>
@@ -38,7 +44,30 @@
         <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
       </article>
     </main>
+<footer class="footer">
+	<br>
+    <span class="footer-head">
+		<ul>
+            <li><a href="index.php">Home</a></li>
+			<li><a href="products.php">Menu</a></li>
+			<li><a href="service.php">Order Now</a></li>
+			<li><a href="login.php">Login</a></li>
+		</ul>
+	</span>
+    <br>
+    <h1></h1>
+    <br>
+	<p id="copyright">&copy; Khon's Asian Takeaway 
+        <script>
+            document.write(new Date().getFullYear());
+        </script>
+	 | Site designed by Dylan | s3683103</p>
+   
 
+	 
+
+	
+</footer>
     <footer>
       <div>&copy;<script>
         document.write(new Date().getFullYear());
