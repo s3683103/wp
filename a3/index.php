@@ -24,7 +24,7 @@
 
   <body>
 
- <nav class="header">
+ <header class="header">
 		<a class="logo" href="/"><img src="KhonsLogo.png"></a>
 		<ul class="menu" id="menu">
 			<li class="navtext"><a href="login.php">Login</a></li>
@@ -32,18 +32,13 @@
 			<li class="navtext"><a class="page" href="products.php">Menu</a></li>
 			<li class="navtext"><a href="index.php">Home</a></li>
 		</ul>
-	</nav>
+	</header>
 
     <!--<nav>
       <div>Put website navigation links here</div>
     </nav>-->
 
-    <main>
-      <article id='Website Under Construction'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-        <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
-      </article>
-    </main>
+    
 <footer class="footer">
 	<br>
     <span class="footer-head">
