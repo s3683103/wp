@@ -41,9 +41,10 @@
 	fclose($fp);
 	echo "<p>{$headings[0]}</p>";
 	echo "<p>{$records[0][1]}</p>";
- 	
-	    for ($cells = 0; $row < 4; $row++) {
-  		echo "<p><b>Row number $row</b></p>";
+ 	$headings=[i];
+	    for ($cells = 0; $row < 4; $row++,) {
+  		$headings[i]+1;
+		echo "<p><b>$headings[]</b></p>";
   		echo "<ul>";
   		for ($cells = 0; $col < 3; $col++) {
     		echo "<li>".$headings[$row][$col]."</li>";
