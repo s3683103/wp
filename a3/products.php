@@ -4,7 +4,7 @@
     <title>Khon's Asian Takeaway | Menu</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css">
+     	<link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
 
 	
 </head>
@@ -13,7 +13,7 @@
 		<a class="logo" href="/"><img src="KhonsLogo.png"></a>
 		<ul class="menu" id="menu">
 			<li class="navtext"><a href="login.php">Login</a></li>
-            <li class="navtext"><a href="service.php">Order</a></li>
+            		<li class="navtext"><a href="service.php">Order</a></li>
 			<li class="navtext"><a class="page" href="products.php">Menu</a></li>
 			<li class="navtext"><a href="index.php">Home</a></li>
 		</ul>
