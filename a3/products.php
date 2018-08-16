@@ -20,7 +20,16 @@
 	</header>
     <div class="menu">
     <h3>Khon's Menu</h3>
-     <?php include 'products.txt.tsv';
+     <?php    $fp = fopen($products.txt.tsv, "r");
+flock($fp, LOCK_SH);
+$headings = fgetcsv($fp);
+while ($aLineOfCells = fgetcsv($fp)) {
+  $records[] = $aLineOfCells;
+}
+flock($fp, LOCK_UN);
+fclose($fp);
+echo "<p>{$headings[5]}</p>";
+echo "<p>{$records[0][0]}</p>";
           $data = explode(',',$products.txt.tsv);
     echo '<table>';
     foreach($data as $row){
@@ -46,34 +55,8 @@
         <img src="Prawn.jpg" id="prawn_pic" title="Prawn with Salad" alt="Prawn with Salad">
         <img src="Rice (2).jpg" id="rice_pic" title="Rice with Prawns" alt="Rice with Prawns">
     </div>
-    <?php
-    $fp = fopen($products.txt.tsv, "r");
-flock($fp, LOCK_SH);
-$headings = fgetcsv($fp);
-while ($aLineOfCells = fgetcsv($fp)) {
-  $records[] = $aLineOfCells;
-}
-flock($fp, LOCK_UN);
-fclose($fp);
-echo "<p>{$headings[5]}</p>";
-echo "<p>{$records[0][0]}</p>";
-?>
-	<?php
-	$data = explode($products.txt.tsv,$query);
+ 
 
-    echo '<table>';
-    foreach($data as $row){
-        echo '<tr>';
-        $row = explode($products.txt.tsv,$row);
-        foreach($row as $cell){
-            echo '<td>';
-            echo $cell;
-            echo '</td>';
-        }
-        echo '</tr>';
-    }
-    echo '</table>';
-	?>
 </body>
 <footer class="footer">
 	<br>
