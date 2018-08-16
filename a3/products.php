@@ -22,8 +22,8 @@
     <h3>Khon's Menu</h3>
      <?php    
 	   $fp = fopen('Products1.txt','r'); 
-		if (($headings = fgetcsv($fp, 0, "\t")) !== false) { 
-		while ( $cells = fgetcsv($fp, 0, "\t") ) { 
+		if (($headings = fgetcsv($fp)) !== false) { 
+		while ( $cells = fgetcsv($fp) ) { 
  		for ($x=1; $x<count($cells); $x++) 
 	 	$products[$cells[0]][$headings[$x]]=$cells[$x]; 
     		 } 
