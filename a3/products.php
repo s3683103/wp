@@ -29,8 +29,8 @@
     		 } 
    		} 
   	fclose($fp); 
- 	preShow($products); 
-          $data = explode(',',$Products1.txt);
+ 	//preShow($products); 
+          $data = explode('Products1.txt',$Query);
     	echo '<table>';
     	foreach($data as $row){
         echo '<tr>';
