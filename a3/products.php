@@ -22,6 +22,7 @@
     <h3>Khon's Menu</h3>
      <?php    
 	   function menu($filenameP='Products1.txt')
+	   {
 		$fp;
 	    	$menuArray=[];
 	    	$headingsArray[];
