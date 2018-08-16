@@ -21,7 +21,20 @@
     <div class="menu">
     <h3>Khon's Menu</h3>
      <?php include 'products.txt.tsv';
-            ?>
+          $data = explode($products.txt.tsv,$query);
+    echo '<table>';
+    foreach($data as $row){
+        echo '<tr>';
+        $row = explode($products.txt.tsv,$row);
+        foreach($row as $cell){
+            echo '<td>';
+            echo $cell;
+            echo '</td>';
+        }
+        echo '</tr>';
+    }
+    echo '</table>';
+	?>  ?>
     
     <h3 id="size">Large</h3><h3 id="size">Small</h3>
     <p id="menu_type">Chicken</p><p id="price_large">$12</p><p id="price_small">$10</p>
