@@ -41,7 +41,23 @@
 	fclose($fp);
 	echo "<p>{$headings[0]}</p>";
 	echo "<p>{$records[0][1]}</p>";
- 	$i=0;
+ 	
+	    $data = explode(',',$headings);
+
+    		echo '<table>';
+    		foreach($data as $row){
+        	echo '<tr>';
+        	$row = explode(' ',$row);
+        	foreach($row as $cell){
+            	echo '<td>';
+            	echo $cell;
+            	echo '</td>';
+       	 }
+        echo '</tr>';
+    }
+    echo '</table>';
+	    
+	    $i=0;
 	    $headings=[$i];
 	    for ($cells = 0; $row < 4; $row++) {
   		$i+1;
