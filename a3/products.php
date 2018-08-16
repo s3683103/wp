@@ -40,7 +40,7 @@
 	flock($fp, LOCK_UN);
 	fclose($fp);
 	echo "<p>{$headings[0]}</p>";
-	echo "<p>{$records[0][1][2]}</p>";
+	echo "<p>{$records[0][0]}</p>";
  	
 	    for ($cells = 0; $row < 4; $row++) {
   		echo "<p><b>Row number $row</b></p>";
