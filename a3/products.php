@@ -26,10 +26,10 @@
 	    	if (($fp = fopen('Products1.txt', 'r')) === false)
     			return false;
 	    
-	    	if ( ($headingsArray = fgetcsv($fp, 0, "\t")) === false )
+	    	if ( ($headingsArray = fgetcsv($fp)) === false )
     			return false;
 	    	
-	    	while ( ($lineArray = fgetcsv($fp, 0, "\t")) !== false) 
+	    	while ( ($lineArray = fgetcsv($fp)) !== false) 
   		{
     		foreach ($lineArray as $i => $cell) 
     			{
