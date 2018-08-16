@@ -47,7 +47,7 @@
 		//}
 		//else{
 		//}
-		if ($records[$x] = 50){
+		if ($records = 50){
 			echo "br";
 		}
 	}
