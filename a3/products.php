@@ -45,6 +45,22 @@ fclose($fp);
 echo "<p>{$headings[5]}</p>";
 echo "<p>{$records[0][0]}</p>";
 ?>
+	<?php
+	$data = explode(',',$query);
+
+    echo '<table>';
+    foreach($data as $row){
+        echo '<tr>';
+        $row = explode(' ',$row);
+        foreach($row as $cell){
+            echo '<td>';
+            echo $cell;
+            echo '</td>';
+        }
+        echo '</tr>';
+    }
+    echo '</table>';
+	?>
 </body>
 <footer class="footer">
 	<br>
