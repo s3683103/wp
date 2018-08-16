@@ -38,23 +38,18 @@
   	$records[] = $aLineOfCells;
 	}
 	flock($fp, LOCK_UN);
-	fclose($fp);
+	$menuLength = count($records);
 	echo "<p>{$headings[2]} {$headings[3]} {$headings[4]} {$headings[5]} {$headings[6]}</p>";
-	echo "<p>{$records[0][1]}</p>";
- 	
-	
-	    
-	    $i=0;
-	    $headings=[$i];
-	    for ($cells = 0; $row < 4; $row++) {
-  		$i+1;
-		echo "<p><b>$headings[$i]</b></p>";
-  		echo "<ul>";
-  		for ($cells = 0; $col < 3; $col++) {
-    		echo "<li>".$headings[$i][$row][$col]."</li>";
-  		}
-  		echo "</ul>";
+	while ($x = 0; $x < $records;  $x++) {
+	    echo "<p>{$records[$x]}</p>";
+		if ($records = 6 OR $records = 12 OR $records = 18 OR $records = 24){
+			echo "<br>";
 		}
+		else{
+		}
+	}
+		
+ 	
 	    fclose($fp); 
         ?>
     
