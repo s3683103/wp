@@ -24,7 +24,7 @@
 
   <body>
 
- <header class="header">
+ <nav class="header">
 		<a class="logo" href="/"><img src="KhonsLogo.png"></a>
 		<ul class="menu" id="menu">
 			<li class="navtext"><a href="login.php">Login</a></li>
@@ -32,11 +32,11 @@
 			<li class="navtext"><a class="page" href="products.php">Menu</a></li>
 			<li class="navtext"><a href="index.php">Home</a></li>
 		</ul>
-	</header>
+	</nav>
 
-    <nav>
+    <!--<nav>
       <div>Put website navigation links here</div>
-    </nav>
+    </nav>-->
 
     <main>
       <article id='Website Under Construction'>
