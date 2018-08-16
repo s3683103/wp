@@ -42,7 +42,7 @@
     			}
   		}
 	    	fclose($fp);
-  		return $pumpsArray;
+  		return $menuArray;
 	   // $fp = fopen('Products1.txt','r'); 
 	//	if (($headings = fgetcsv($fp)) !== false) { 
 	//	while ( $cells = fgetcsv($fp) ) { 
