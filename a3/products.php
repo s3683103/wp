@@ -42,7 +42,7 @@
 	echo "<p>{$headings[0]}</p>";
 	echo "<p>{$records[0][1]}</p>";
  	$headings=[i];
-	    for ($cells = 0; $row < 4; $row++,) {
+	    for ($cells = 0; $row < 4; $row++) {
   		$headings[i]+1;
 		echo "<p><b>$headings[]</b></p>";
   		echo "<ul>";
