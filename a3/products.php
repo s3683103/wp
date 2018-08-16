@@ -23,7 +23,7 @@
      <?php    
 	   
 	  
-  		
+  	$products=[];	
 	 $fp = fopen('Products1.txt','r'); 
 	if (($headings = fgetcsv($fp)) !== false) { 
 	while ( $cells = fgetcsv($fp) ) { 
@@ -32,7 +32,7 @@
    	 } 
    		} 
   	fclose($fp); 
- 	return $productsy;
+ 	return $products;
 	    for ($row = 0; $row < 4; $row++) {
   		echo "<p><b>Row number $row</b></p>";
   		echo "<ul>";
