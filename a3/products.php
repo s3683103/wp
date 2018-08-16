@@ -39,7 +39,7 @@
 	}
 	flock($fp, LOCK_UN);
 	fclose($fp);
-	echo "<p>{$headings[2]} {$headings[3]} {$headings[4} {$headings[5]} {$headings[6]}</p>";
+	echo "<p>{$headings[2]} {$headings[3]} {$headings[4]} {$headings[5]} {$headings[6]}</p>";
 	echo "<p>{$records[0][1]}</p>";
  	
 	
