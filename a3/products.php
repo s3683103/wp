@@ -23,7 +23,7 @@
      <?php    
 	   
 	  
-  	$products=[];	
+  	$products=[''];	
 	 $fp = fopen('Products1.txt','r'); 
 	if (($headings = fgetcsv($fp)) !== false) { 
 	while ( $cells = fgetcsv($fp) ) { 
