@@ -30,20 +30,7 @@
    		} 
   	fclose($fp); 
  	//preShow($products); 
-          $data = explode('Products1.txt',$Query);
-    	echo '<table>';
-    	foreach($data as $row){
-        echo '<tr>';
-        $row = explode("",$row);
-        foreach($row as $cell){
-            echo '<td>';
-            echo $cell;
-            echo '</td>';
-        }
-        echo '</tr>';
-    }
-    echo '</table>';
-	?>  ?>
+        ?>
     
     <h3 id="size">Large</h3><h3 id="size">Small</h3>
     <p id="menu_type">Chicken</p><p id="price_large">$12</p><p id="price_small">$10</p>
