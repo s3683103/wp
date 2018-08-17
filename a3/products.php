@@ -152,62 +152,60 @@
 				<td>$'.$records[11][5].'</td>
 			</tr>
 			<tr>
-				<td>
-					<h4>'.$records[12][2].'</h4>
-				</td>
+				<td><h4>'.$records[15][2].'</h4></td>
+			</tr>
+			<tr>
+				<td><h4></h4></td>
 				<td>'.$records[12][3].'</td>
 				<td>'.$records[12][4].'</td>
 				<td>$'.$records[12][5].'</td>
 			</tr>
 			<tr>
-				<td>
-					<h4>'.$records[13][2].'</h4>
-				</td>
+				<td><h4></h4></td>
 				<td>'.$records[13][3].'</td>
 				<td>'.$records[13][4].'</td>
 				<td>$'.$records[13][5].'</td>
 			</tr>
 			<tr>
-				<td>
-					<h4>'.$records[14][2].'</h4>
-				</td>
+				<td><h4></h4></td>
 				<td>'.$records[14][3].'</td>
 				<td>'.$records[14][4].'</td>
 				<td>$'.$records[14][5].'</td>
 			</tr>
 			<tr>
-				<td>
-					<h4>'.$records[15][2].'</h4>
-				</td>
+				<td><h4>'.$records[15][2].'</h4></td>
+			</tr>
+			<tr>
+				<td><h4></h4></td>
 				<td>'.$records[15][3].'</td>
 				<td>'.$records[15][4].'</td>
 				<td>$'.$records[15][5].'</td>
 			</tr>
 			<tr>
-				<td>
-					<h4>'.$records[16][2].'</h4>
-				</td>
+				<td><h4></h4></td>
 				<td>'.$records[16][3].'</td>
 				<td>'.$records[16][4].'</td>
 				<td>$'.$records[16][5].'</td>
 			</tr>
 			<tr>
-				<td>
-					<h4>'.$records[17][2].'</h4>
-				</td>
+				<td><h4></h4></td>
 				<td>'.$records[17][3].'</td>
 				<td>'.$records[17][4].'</td>
 				<td>$'.$records[17][5].'</td>
-			</tr><tr>
+			</tr>
+			<tr>
+				<td><h4>'.$records[18][2].'</h4></td>
+			</tr>
+			<tr>
 				<td>
-					<h4>'.$records[18][2].'</h4>
+					<h4></h4>
 				</td>
 				<td>'.$records[18][3].'</td>
 				<td>'.$records[18][4].'</td>
 				<td>$'.$records[18][5].'</td>
 			</tr><tr>
 				<td>
-					<h4>'.$records[19][2].'</h4>
+					<h4></h4>
 				</td>
 				<td>'.$records[19][3].'</td>
 				<td>'.$records[19][4].'</td>
