@@ -47,7 +47,7 @@
 					<h3>Dish</h3>
 				</th>					
 				<th>
-					<h3></h3>
+					<h3>'.$headings[3].'</h3>
 				</th>										
 				<th>
 					<h3>Size</h3>
