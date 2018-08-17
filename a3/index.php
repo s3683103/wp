@@ -54,7 +54,7 @@
             <br><br>Food is made to order or you can choose from the ready cooked selection on offer.</p>
 		<h3>Menu</h3>
 		<br>
-		<p><a href="products.php">"Click here to view the menu</a></p>
+		<p><a href="products.php">Click here to view the menu</a></p>
 	
 	</div>
 	
