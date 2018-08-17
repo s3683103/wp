@@ -43,7 +43,7 @@
 			
 			<tr id="menuHeadings">
 				<th>
-					<h3>{$headings[2]}</h3>
+					<h3>'{$headings[2]}'</h3>
 				</th>					
 				<th>
 					<h3>{$headings[3]}</h3>
