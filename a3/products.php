@@ -101,13 +101,6 @@
 				<td>'.$records[5][3].'</td>
 				<td>'.$records[5][4].'</td>
 				<td>$'.$records[5][5].'</td>
-			<tr>
-				<td>
-					<h4>'.$records[6][2].'</h4>
-				</td>
-				<td>'.$records[6][3].'</td>
-				<td>'.$records[6][4].'</td>
-				<td>$'.$records[6][5].'</td>
 			</tr>
 			<tr>
 				<td>
@@ -117,6 +110,15 @@
 				<td>'.$records[7][4].'</td>
 				<td>$'.$records[7][5].'</td>
 			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[6][2].'</h4>
+				</td>
+				<td>'.$records[6][3].'</td>
+				<td>'.$records[6][4].'</td>
+				<td>$'.$records[6][5].'</td>
+			</tr>
+			
 			<tr>
 				<td>
 					<h4>'.$records[8][2].'</h4>
@@ -132,6 +134,84 @@
 				<td>'.$records[9][3].'</td>
 				<td>'.$records[9][4].'</td>
 				<td>$'.$records[9][5].'</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[10][2].'</h4>
+				</td>
+				<td>'.$records[10][3].'</td>
+				<td>'.$records[10][4].'</td>
+				<td>$'.$records[10][5].'</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[11][2].'</h4>
+				</td>
+				<td>'.$records[11][3].'</td>
+				<td>'.$records[11][4].'</td>
+				<td>$'.$records[11][5].'</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[12][2].'</h4>
+				</td>
+				<td>'.$records[12][3].'</td>
+				<td>'.$records[12][4].'</td>
+				<td>$'.$records[12][5].'</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[13][2].'</h4>
+				</td>
+				<td>'.$records[13][3].'</td>
+				<td>'.$records[13][4].'</td>
+				<td>$'.$records[13][5].'</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[14][2].'</h4>
+				</td>
+				<td>'.$records[14][3].'</td>
+				<td>'.$records[14][4].'</td>
+				<td>$'.$records[14][5].'</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[15][2].'</h4>
+				</td>
+				<td>'.$records[15][3].'</td>
+				<td>'.$records[15][4].'</td>
+				<td>$'.$records[15][5].'</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[16][2].'</h4>
+				</td>
+				<td>'.$records[16][3].'</td>
+				<td>'.$records[16][4].'</td>
+				<td>$'.$records[16][5].'</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[17][2].'</h4>
+				</td>
+				<td>'.$records[17][3].'</td>
+				<td>'.$records[17][4].'</td>
+				<td>$'.$records[17][5].'</td>
+			</tr><tr>
+				<td>
+					<h4>'.$records[18][2].'</h4>
+				</td>
+				<td>'.$records[18][3].'</td>
+				<td>'.$records[18][4].'</td>
+				<td>$'.$records[18][5].'</td>
+			</tr><tr>
+				<td>
+					<h4>'.$records[19][2].'</h4>
+				</td>
+				<td>'.$records[19][3].'</td>
+				<td>'.$records[19][4].'</td>
+				<td>$'.$records[19][5].'</td>
 			</tr>
 			</table>';	
 		// $currRow = 0;
