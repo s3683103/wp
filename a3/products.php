@@ -214,7 +214,7 @@
 				<td>$'.$records[19][5].'</td>
 			</tr>
 			<tr>
-				<h4>'.$records[20][2].'</h4>
+				<td><h4>'.$records[20][2].'</h4></td>
 			</tr>
 			<tr>
 				<td>
