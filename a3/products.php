@@ -39,7 +39,13 @@
 			//echo "br";
 		//}
 	//}
-	
+	$ids = array[$records[0][0];$records[1][0]];
+	$getId = empty( $_GET['id'] ) ? 'empty' : $_GET['id'];
+	 foreach ($ids as $id) {
+  		echo "<article><h2>$id</h2>";
+  		if ($id == $getId) echo "<p>A form needs goes here</p>";
+  		echo "</article>";
+}
 	 fclose($fp);
 	 echo   '<table id="displayMenu">
 			
@@ -209,7 +215,7 @@
 				<td>$'.$records[19][5].'</td>
 			</tr>
 			<tr>
-				<td><h4>'.$records[20][2].'</h4></td>
+				<td><a href <h4>'.$records[20][2].'</h4></td>
 			</tr>
 			<tr>
 				<td>
@@ -251,7 +257,6 @@
  	
 	    
         ?>
-    <h4>'.$records[12][2].'</h4>
    
     </div>
  
