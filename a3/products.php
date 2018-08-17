@@ -57,7 +57,7 @@
 			</tr>
 			<tr>
 				<td>
-					<h4>'.$records[3].'</h4>
+					<h4>'.$records.'</h4>
 				</td>
 				<td>'.$records[4].'</td>
 				<td>'.$records[5].'</td>
