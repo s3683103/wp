@@ -30,7 +30,7 @@
 	}
 	flock($fp, LOCK_UN);
 	$menuLength = count($records);
-	echo "<p>{$headings[2]} {$headings[3]} {$headings[4]} {$headings[5]}</p>";
+	//echo "<p>{$headings[2]} {$headings[3]} {$headings[4]} {$headings[5]}</p>";
 	//for ($x = 0; $x < $records;  $x++) {
 	  //  print implode(",", $records[$x]);
 		
@@ -60,17 +60,13 @@
 				<td><h4>'.$records[0][2].'</h4></td>
 			</tr>
 			<tr>
-				<td>
-					<h4>'.$records[0][2].'</h4>
-				</td>
+
 				<td>'.$records[0][3].'</td>
 				<td>'.$records[0][4].'</td>
 				<td>$'.$records[0][5].'</td>
 			</tr>
 			<tr>
-				<td>
-					<h4>'.$records[1][2].'</h4>
-				</td>
+
 				<td>'.$records[1][3].'</td>
 				<td>'.$records[1][4].'</td>
 				<td>$'.$records[1][5].'</td>
