@@ -212,9 +212,13 @@
 				<td>'.$records[19][3].'</td>
 				<td>'.$records[19][4].'</td>
 				<td>$'.$records[19][5].'</td>
-			</tr><tr>
+			</tr>
+			<tr>
+				<h4>'.$records[20][2].'</h4>
+			</tr>
+			<tr>
 				<td>
-					<h4>'.$records[20][2].'</h4>
+					<h4></h4>
 				</td>
 				<td>'.$records[20][3].'</td>
 				<td>'.$records[20][4].'</td>
