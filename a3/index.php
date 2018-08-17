@@ -53,7 +53,8 @@
 		<p>Khon's Asian Takeaway is a family business in the central shop area of Mowbray. With many years of experience expect a loving atmosphere with great food. 
             <br><br>Food is made to order or you can choose from the ready cooked selection on offer.</p>
 		<h3>Menu</h3>
-		<p> </p>
+		<br>
+		<p><a href="products.php">"Click here to view the menu</a></p>
 	
 	</div>
 	
