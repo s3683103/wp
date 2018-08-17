@@ -252,15 +252,7 @@
 	    
         ?>
     
-    <h3 id="size">Large</h3><h3 id="size">Small</h3>
-    <p id="menu_type">Chicken</p><p id="price_large">$12</p><p id="price_small">$10</p>
-        <br><br>
-    <p id="menu_type">Prawn</p><p id="price_large">$14</p><p id="price_small">$12</p>
-         <br>
-    <p id="menu_type">Rice</p><p id="price_large">$8</p><p id="price_small">$6</p>
-        <img src="rice.jpg" id="chicken_pic" title="Chicken with Rice" alt="Chicken with Rice">
-        <img src="Prawn.jpg" id="prawn_pic" title="Prawn with Salad" alt="Prawn with Salad">
-        <img src="Rice (2).jpg" id="rice_pic" title="Rice with Prawns" alt="Rice with Prawns">
+   
     </div>
  
 
