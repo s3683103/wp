@@ -112,7 +112,7 @@
 			</tr>
 			';	
 		
-		 for ($x <12, $x++){
+		 for ($x <12, $x++);{
 				echo "<td>'.$records[$currCol][$currRow].'</td>";
 			 	echo $currCol + 1;
 		 		if ($currCol = 6){
