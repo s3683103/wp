@@ -39,10 +39,10 @@
 			//echo "br";
 		//}
 	//}
-	$ids = [T001,T002,T003,T004,T005,T006,T007,T008,T009,T010];
+	$ids = [$records];
 	$getId = empty( $_GET['id'] ) ? 'empty' : $_GET['id'];
 	 foreach ($ids as $id) {
-  		echo "<article><h2>$id</h2>";
+  		echo "<article><a href="?$id<h2>$id</h2>";
   		if ($id == $getId) echo "<p>A form needs goes here</p>";
   		echo "</article>";
 }
@@ -215,7 +215,7 @@
 				<td>$'.$records[19][5].'</td>
 			</tr>
 			<tr>
-				<td><a href <h4>'.$records[20][2].'</h4></td>
+				<td><a href="?id <h4>'.$records[20][2].'</h4></td>
 			</tr>
 			<tr>
 				<td>
