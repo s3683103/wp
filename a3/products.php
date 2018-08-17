@@ -44,13 +44,13 @@
 			
 			<tr id="menuHeadings">
 				<th>
-					<h3>'.$headings[2].'</h3>
+					<h3>Dish</h3>
 				</th>					
 				<th>
-					<h3>'.$headings[3].'</h3>
+					<h3></h3>
 				</th>										
 				<th>
-					<h3>'.$headings[4].'</h3>
+					<h3>Size</h3>
 				</th>
 				<th>
 					<h3>'.$headings[5].'</h3>
@@ -60,30 +60,30 @@
 				<td><h4>'.$records[0][2].'</h4></td>
 			</tr>
 			<tr>
-
-				<td>'.$records[0][3].'</td>
-				<td>'.$records[0][4].'</td>
-				<td>$'.$records[0][5].'</td>
-			</tr>
-			<tr>
-
+				<td><h4></h4></td>
 				<td>'.$records[1][3].'</td>
 				<td>'.$records[1][4].'</td>
 				<td>$'.$records[1][5].'</td>
+			</tr>
+			<tr>
+				<td><h4></h4></td>
+				<td>'.$records[0][3].'</td>
+				<td>'.$records[0][4].'</td>
+				<td>$'.$records[0][5].'</td>
 			</tr>
 			<tr>
 				<td><h4>'.$records[2][2].'</h4></td>
 			</tr>
 			<tr>
 				<td><h4></h4></td>
-				<td>'.$records[2][3].'</td>
-				<td>'.$records[2][4].'</td>
-				<td>$'.$records[2][5].'</td>
-			</tr>	
-				<td><h4></h4></td>
 				<td>'.$records[3][3].'</td>
 				<td>'.$records[3][4].'</td>
 				<td>$'.$records[3][5].'</td>
+			</tr>	
+				<td><h4></h4></td>
+				<td>'.$records[2][3].'</td>
+				<td>'.$records[2][4].'</td>
+				<td>$'.$records[2][5].'</td>
 			<tr>
 				<td><h4>'.$records[4][2].'</h4></td>
 			</tr>
@@ -150,19 +150,19 @@
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[12][3].'</td>
-				<td>'.$records[12][4].'</td>
+				<td></td>
 				<td>$'.$records[12][5].'</td>
 			</tr>
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[13][3].'</td>
-				<td>'.$records[13][4].'</td>
+				<td></td>
 				<td>$'.$records[13][5].'</td>
 			</tr>
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[14][3].'</td>
-				<td>'.$records[14][4].'</td>
+				<<td></td>
 				<td>$'.$records[14][5].'</td>
 			</tr>
 			<tr>
@@ -171,19 +171,19 @@
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[15][3].'</td>
-				<td>'.$records[15][4].'</td>
+				<td></td>
 				<td>$'.$records[15][5].'</td>
 			</tr>
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[16][3].'</td>
-				<td>'.$records[16][4].'</td>
+				<td></td>
 				<td>$'.$records[16][5].'</td>
 			</tr>
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[17][3].'</td>
-				<td>'.$records[17][4].'</td>
+				<td></td>
 				<td>$'.$records[17][5].'</td>
 			</tr>
 			<tr>
@@ -194,14 +194,14 @@
 					<h4></h4>
 				</td>
 				<td>'.$records[18][3].'</td>
-				<td>'.$records[18][4].'</td>
+				<td></td>
 				<td>$'.$records[18][5].'</td>
 			</tr><tr>
 				<td>
 					<h4></h4>
 				</td>
 				<td>'.$records[19][3].'</td>
-				<td>'.$records[19][4].'</td>
+				<td></td>
 				<td>$'.$records[19][5].'</td>
 			</tr>
 			<tr>
@@ -212,21 +212,21 @@
 					<h4></h4>
 				</td>
 				<td>'.$records[20][3].'</td>
-				<td>'.$records[20][4].'</td>
+				<td></td>
 				<td>$'.$records[20][5].'</td>
 			</tr><tr>
 				<td>
 					<h4></h4>
 				</td>
 				<td>'.$records[21][3].'</td>
-				<td>'.$records[21][4].'</td>
+				<td></td>
 				<td>$'.$records[21][5].'</td>
 			</tr><tr>
 				<td>
 					<h4></h4>
 				</td>
 				<td>'.$records[22][3].'</td>
-				<td>'.$records[22][4].'</td>
+				<td></td>
 				<td>$'.$records[22][5].'</td>
 			</tr>
 			</table>';	
