@@ -56,6 +56,9 @@
 				<th>
 					<h3>'.$headings[5].'</h3>
 				</th>
+				<th>	
+					<h3> Qty </h3>
+				</th>
 			</tr>
 			<tr>
 				<td><h4>'.$records[0][2].'</h4></td>
