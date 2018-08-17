@@ -64,43 +64,49 @@
 				<td>$'.$records[0][5].'</td>
 			</tr>
 			<tr>
-				<td>	
-					<h4>Tuesday:</h4>
+				<td>
+					<h4>'.$records[1][2].'</h4>
 				</td>
-				<td>Closed</td>
-				<td>11am - 1pm</td>
+				<td>'.$records[1][3].'</td>
+				<td>'.$records[1[4].'</td>
+				<td>$'.$records[1][5].'</td>
 			</tr>
 			<tr>
-				<td>	
-					<h4>Wednesday:</h4>
+				<td>
+					<h4>'.$records[2][2].'</h4>
 				</td>
-				<td>Closed</td>
-				<td>5pm - 9pm</td>
+				<td>'.$records[2][3].'</td>
+				<td>'.$records[2][4].'</td>
+				<td>$'.$records[2][5].'</td>
 			</tr>	
-				<td>	
-					<h4>Thursday:</h4>
+				<td>
+					<h4>'.$records[3][2].'</h4>
 				</td>
-				<td>Closed</td>
-				<td>5pm - 9pm</td>
+				<td>'.$records[3][3].'</td>
+				<td>'.$records[3][4].'</td>
+				<td>$'.$records[3][5].'</td>
 			<tr>
 				<td>
-					<h4>Friday:</h4>
+					<h4>'.$records[4][2].'</h4>
 				</td>
-				<td>Closed</td>
-				<td>5pm - 9pm</td>
+				<td>'.$records[4][3].'</td>
+				<td>'.$records[4][4].'</td>
+				<td>$'.$records[4][5].'</td>
 			</tr>
 			<tr>
 				<td>
-					<h4>Saturday:</h4>
+					<h4>'.$records[5][2].'</h4>
 				</td>
-				<td>Closed</td>
-				<td>5pm - 9pm</td>
+				<td>'.$records[5][3].'</td>
+				<td>'.$records[5][4].'</td>
+				<td>$'.$records[5][5].'</td>
 			<tr>
 				<td>
-					<h4>Sunday:</h4>
+					<h4>'.$records[6][2].'</h4>
 				</td>
-				<td>Closed</td>
-				<td>5pm - 9pm</td>
+				<td>'.$records[6][3].'</td>
+				<td>'.$records[6][4].'</td>
+				<td>$'.$records[6][5].'</td>
 			</tr>	
 		
 	</table>';
