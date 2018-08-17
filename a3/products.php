@@ -43,7 +43,7 @@
 			
 			<tr id="menuHeadings">
 				<th>
-					<h3>'.$headings[2][0].'</h3>
+					<h3>'.$headings[2].'</h3>
 				</th>					
 				<th>
 					<h3>'.$headings[3].'</h3>
@@ -57,7 +57,7 @@
 			</tr>
 			<tr>
 				<td>
-					<h4>'.$records.'</h4>
+					<h4>'.$records[2][3].'</h4>
 				</td>
 				<td>'.$records[4].'</td>
 				<td>'.$records[5].'</td>
