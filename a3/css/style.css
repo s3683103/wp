@@ -485,6 +485,8 @@ input[type=text], input[type=password] {
     
 }
 
+
+
 .qty_button{
     
     border-radius: 4px;
@@ -494,7 +496,7 @@ input[type=text], input[type=password] {
     font-weight: bold;
     height: 25px;
     width: 25px;
-    padding-right: 5px;
+    
     
 }
 
