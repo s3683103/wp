@@ -21,16 +21,7 @@
     <div class="menu">
     <h3>Khon's Menu</h3>
      <?php    
-	   
-	  
-  	//$products=[''];	
-	// $fp = fopen('Products1.txt','r'); 
-	//if (($headings = fgetcsv($fp)) !== false) { 
-	//while ( $cells = fgetcsv($fp) ) { 
-	//for ($x=1; $x<count($cells); $x++) 
-	//$products[$cells[0]][$headings[$x]]=$cells[$x]; 
-   	 //} 
-   	//	} 
+   
   	$fp = fopen('Products1.txt', "r");
 	flock($fp, LOCK_SH);
 	$headings = fgetcsv($fp, "\t");
@@ -40,17 +31,79 @@
 	flock($fp, LOCK_UN);
 	$menuLength = count($records);
 	echo "<p>{$headings[2]} {$headings[3]} {$headings[4]} {$headings[5]}</p>";
-	for ($x = 0; $x < $records;  $x++) {
-	    print implode(",", $records[$x]);
-		//if ($records = 6 OR $records = 12 OR $records = 18 OR $records = 24){
-		//	echo "<br>";
+	//for ($x = 0; $x < $records;  $x++) {
+	  //  print implode(",", $records[$x]);
+		
+		//if ($records = 50){
+			//echo "br";
 		//}
-		//else{
-		//}
-		if ($records = 50){
-			echo "br";
-		}
-	}
+	//}
+	 echo   "<table id="displayMenu">
+			
+			<tr id="menuHeadings">
+				<th>
+					<h3>{$headings[2]}</h3>
+				</th>					
+				<th>
+					<h3>{$headings[3]}</h3>
+				</th>										
+				<th>
+					<h3>{$headings[4]}</h3>
+				</th>
+				<th>
+					<h3>{$headings[5]}</h3>
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<h4>{$records[3]}</h4>
+				</td>
+				<td>{$records[4]}</td>
+				<td>{$records[5]}</td>
+				<td>${$records[6]}</td>
+			</tr>
+			<tr>
+				<td>	
+					<h4>Tuesday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>11am - 1pm</td>
+			</tr>
+			<tr>
+				<td>	
+					<h4>Wednesday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>5pm - 9pm</td>
+			</tr>	
+				<td>	
+					<h4>Thursday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>5pm - 9pm</td>
+			<tr>
+				<td>
+					<h4>Friday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>5pm - 9pm</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Saturday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>5pm - 9pm</td>
+			<tr>
+				<td>
+					<h4>Sunday:</h4>
+				</td>
+				<td>Closed</td>
+				<td>5pm - 9pm</td>
+			</tr>	
+		
+	</table>"
+	
 		
  	
 	    fclose($fp); 
