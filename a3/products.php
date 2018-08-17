@@ -120,13 +120,13 @@
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[8][3].'</td>
-				<td>'.$records[8][4].'</td>
+				<td></td>
 				<td>$'.$records[8][5].'</td>
 			</tr>
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[9][3].'</td>
-				<td>'.$records[9][4].'</td>
+				<td></td>
 				<td>$'.$records[9][5].'</td>
 			</tr>
 			<tr>
@@ -135,13 +135,13 @@
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[10][3].'</td>
-				<td>'.$records[10][4].'</td>
+				<td></td>
 				<td>$'.$records[10][5].'</td>
 			</tr>
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[11][3].'</td>
-				<td>'.$records[11][4].'</td>
+				<td></td>
 				<td>$'.$records[11][5].'</td>
 			</tr>
 			<tr>
