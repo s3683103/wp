@@ -212,6 +212,27 @@
 				<td>'.$records[19][3].'</td>
 				<td>'.$records[19][4].'</td>
 				<td>$'.$records[19][5].'</td>
+			</tr><tr>
+				<td>
+					<h4>'.$records[20][2].'</h4>
+				</td>
+				<td>'.$records[20][3].'</td>
+				<td>'.$records[20][4].'</td>
+				<td>$'.$records[20][5].'</td>
+			</tr><tr>
+				<td>
+					<h4></h4>
+				</td>
+				<td>'.$records[21][3].'</td>
+				<td>'.$records[21][4].'</td>
+				<td>$'.$records[21][5].'</td>
+			</tr><tr>
+				<td>
+					<h4></h4>
+				</td>
+				<td>'.$records[22][3].'</td>
+				<td>'.$records[22][4].'</td>
+				<td>$'.$records[22][5].'</td>
 			</tr>
 			</table>';	
 		// $currRow = 0;
