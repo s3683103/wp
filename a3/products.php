@@ -68,7 +68,6 @@
 				<td>'.$records[1][3].'</td>
 				<td>'.$records[1][4].'</td>
 				<td>$'.$records[1][5].'</td>
-				<td><button class="qty_button" id="minus_button">-</button><button class="qty_button" id="plus_button>+</button></td>
 			</tr>
 			<tr>
 				<td><h4></h4></td>
