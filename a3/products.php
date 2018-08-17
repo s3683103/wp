@@ -38,7 +38,7 @@
 			//echo "br";
 		//}
 	//}
-	 echo   "<table id="displayMenu">
+	 echo   '<table id="displayMenu">
 			
 			<tr id="menuHeadings">
 				<th>
@@ -102,7 +102,7 @@
 				<td>5pm - 9pm</td>
 			</tr>	
 		
-	</table>"
+	</table>'
 	
 		
  	
