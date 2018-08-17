@@ -46,22 +46,22 @@
 					<h3>'.$headings[2].'</h3>
 				</th>					
 				<th>
-					<h3>{$headings[3]}</h3>
+					<h3>'.$headings[3].'</h3>
 				</th>										
 				<th>
-					<h3>{$headings[4]}</h3>
+					<h3>'.$headings[4].'</h3>
 				</th>
 				<th>
-					<h3>{$headings[5]}</h3>
+					<h3>'.{$headings[5].'</h3>
 				</th>
 			</tr>
 			<tr>
 				<td>
-					<h4>{$records[3]}</h4>
+					<h4>'.$records[3]}.'</h4>
 				</td>
-				<td>{$records[4]}</td>
-				<td>{$records[5]}</td>
-				<td>${$records[6]}</td>
+				<td>'.$records[4].'</td>
+				<td>'.{$records[5].'</td>
+				<td>$'.$records[6].'</td>
 			</tr>
 			<tr>
 				<td>	
