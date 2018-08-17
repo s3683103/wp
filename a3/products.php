@@ -38,8 +38,7 @@
 			//echo "br";
 		//}
 	//}
-	 $currRow = 0;
-	 $currCol = 2;
+	
 	 fclose($fp);
 	 echo   '<table id="displayMenu">
 			
@@ -111,7 +110,8 @@
 				<td>$'.$records[6][5].'</td>
 			</tr>
 			';	
-		
+		 $currRow = 0;
+	 	$currCol = 2;
 		 for ($x = 0; $x <12; $x++){
 				echo "<td>.$records[$currCol][$currRow].</td>";
 			 	echo $currCol + 1;
