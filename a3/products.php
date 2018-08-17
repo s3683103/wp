@@ -25,7 +25,7 @@
   	$fp = fopen('Products1.txt', "r");
 	flock($fp, LOCK_SH);
 	$headings = fgetcsv($fp, "\t");
-	while ($aLineOfCells = fgetcsv($fp)) {
+	while ($aLineOfCells = fgetcsv($fp, "\t")) {
   	$records[] = $aLineOfCells;
 	}
 	flock($fp, LOCK_UN);
