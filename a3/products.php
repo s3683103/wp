@@ -105,13 +105,13 @@
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[7][3].'</td>
-				<td>'.$records[7][4].'</td>
+				<td></td>
 				<td>$'.$records[7][5].'</td>
 			</tr>
 			<tr>
 				<td><h4></h4></td>
 				<td>'.$records[6][3].'</td>
-				<td>'.$records[6][4].'</td>
+				<td></td>
 				<td>$'.$records[6][5].'</td>
 			</tr>
 			<tr>
