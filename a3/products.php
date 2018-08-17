@@ -39,12 +39,12 @@
 			//echo "br";
 		//}
 	//}
-	$ids = [$records];
-	$getId = empty( $_GET['id'] ) ? 'empty' : $_GET['id'];
-	 foreach ($ids as $id) {
-  		echo "<article><a href="?$id<h2>$id</h2>";
-  		if ($id == $getId) echo "<p>A form needs goes here</p>";
-  		echo "</article>";
+	//$ids = [$records];
+	//$getId = empty( $_GET['id'] ) ? 'empty' : $_GET['id'];
+	// foreach ($ids as $id) {
+  	///	echo "<article><a href="?$id<h2>$id</h2>";
+  		//if ($id == $getId) echo "<p>A form needs goes here</p>";
+  		//echo "</article>";
 }
 	 fclose($fp);
 	 echo   '<table id="displayMenu">
