@@ -109,7 +109,8 @@
 				<td>'.$records[6][3].'</td>
 				<td>'.$records[6][4].'</td>
 				<td>$'.$records[6][5].'</td>
-			</tr>'	
+			</tr>
+			;'	
 		
 		 for ($x <12, $x++){
 				echo "<td>'.$records[$currCol][$currRow].'</td>";
@@ -120,8 +121,8 @@
 				}
 		 }
 		
-	'</table>';
 	
+		echo '</table>';
 		
  	
 	    
