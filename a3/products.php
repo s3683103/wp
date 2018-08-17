@@ -68,7 +68,7 @@
 					<h4>'.$records[1][2].'</h4>
 				</td>
 				<td>'.$records[1][3].'</td>
-				<td>'.$records[1[4].'</td>
+				<td>'.$records[1][4].'</td>
 				<td>$'.$records[1][5].'</td>
 			</tr>
 			<tr>
