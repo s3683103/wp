@@ -109,20 +109,44 @@
 				<td>'.$records[6][4].'</td>
 				<td>$'.$records[6][5].'</td>
 			</tr>
-			';	
-		 $currRow = 0;
-	 	$currCol = 2;
-		 for ($x = 0; $x <12; $x++){
-				echo "<td>.$records[$currCol][$currRow].</td>";
-			 	echo $currCol + 1;
-		 		if ($currCol = 6){
-					$currRow + 1;
-					$currCol = 2;
-				}
-		 }
+			<tr>
+				<td>
+					<h4>'.$records[7][2].'</h4>
+				</td>
+				<td>'.$records[7][3].'</td>
+				<td>'.$records[7][4].'</td>
+				<td>$'.$records[7][5].'</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[8][2].'</h4>
+				</td>
+				<td>'.$records[8][3].'</td>
+				<td>'.$records[8][4].'</td>
+				<td>$'.$records[8][5].'</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>'.$records[9][2].'</h4>
+				</td>
+				<td>'.$records[9][3].'</td>
+				<td>'.$records[9][4].'</td>
+				<td>$'.$records[9][5].'</td>
+			</tr>
+			</table>';	
+		// $currRow = 0;
+	 	//$currCol = 2;
+		// for ($x = 0; $x <12; $x++){
+		//		echo "<td>.$records[$currCol][$currRow].</td>";
+		//	 	echo $currCol + 1;
+		// 		if ($currCol = 6){
+		//			$currRow + 1;
+		//			$currCol = 2;
+		//		}
+		// }
 		
 	
-		echo '</table>';
+		//echo '</table>';
 		
  	
 	    
