@@ -39,7 +39,7 @@
 			//echo "br";
 		//}
 	//}
-	$ids = array[$records[0][0];$records[1][0]];
+	$ids = [$records[0][0];$records[1][0]];
 	$getId = empty( $_GET['id'] ) ? 'empty' : $_GET['id'];
 	 foreach ($ids as $id) {
   		echo "<article><h2>$id</h2>";
