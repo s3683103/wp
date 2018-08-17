@@ -38,6 +38,7 @@
 			//echo "br";
 		//}
 	//}
+	 fclose($fp);
 	 echo   '<table id="displayMenu">
 			
 			<tr id="menuHeadings">
@@ -106,7 +107,7 @@
 	
 		
  	
-	    'fclose($fp);' 
+	    
         ?>
     
     <h3 id="size">Large</h3><h3 id="size">Small</h3>
