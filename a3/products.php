@@ -57,11 +57,11 @@
 			</tr>
 			<tr>
 				<td>
-					<h4>'.$records[2][3].'</h4>
+					<h4>'.$records[0][2].'</h4>
 				</td>
-				<td>'.$records[4].'</td>
-				<td>'.$records[5].'</td>
-				<td>$'.$records[6].'</td>
+				<td>'.$records[0][3].'</td>
+				<td>'.$records[0][4].'</td>
+				<td>$'.$records[0][5].'</td>
 			</tr>
 			<tr>
 				<td>	
